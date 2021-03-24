@@ -1,8 +1,13 @@
 import 'hardhat-typechain'
 import '@nomiclabs/hardhat-ethers'
 import '@nomiclabs/hardhat-waffle'
+import 'hardhat-abi-exporter'
 
 export default {
+  abiExporter: {
+    path: 'abis',
+    clear: true,
+  },
   networks: {
     hardhat: {
       allowUnlimitedContractSize: false,

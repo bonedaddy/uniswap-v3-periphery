@@ -4,3 +4,5 @@ crytic-export/
 node_modules/
 typechain/
 package-lock.json
+
+abis/
